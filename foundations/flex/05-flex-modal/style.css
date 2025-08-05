@@ -67,3 +67,41 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+/* SOLUTIONS */
+
+.modal {
+  display: flex;
+  padding: 16px; /* had 15px */
+
+  gap: 16px;
+}
+
+.icon {
+  flex-shrink: 0;
+  
+  /* margin-right: 14px; Instead of this, the modal has a gap of 16px*/
+}
+
+.top {
+  display: flex;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 20px;
+  max-width: fit-content;
+  margin-right: auto;
+
+}
+
+.text {
+margin-top: 8px;
+margin-bottom: 16px; /* had 14px */
+}
+
+.select {
+  display: flex;
+  gap: 8px;
+}
